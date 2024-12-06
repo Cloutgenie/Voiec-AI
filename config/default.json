@@ -1,0 +1,21 @@
+{
+  "port": 3000,
+  "mongodb": {
+    "uri": "mongodb://localhost:27017/inbound-outbound-system"
+  },
+  "jwt": {
+    "secret": "your-secret-key",
+    "expiresIn": "1d"
+  },
+  "stripe": {
+    "secretKey": "your-stripe-secret-key",
+    "webhookSecret": "your-stripe-webhook-secret"
+  },
+  "vapi": {
+    "apiKey": "your-vapi-api-key"
+  },
+  "google": {
+    "clientId": "your-google-client-id",
+    "clientSecret": "your-google-client-secret"
+  }
+}
